@@ -228,8 +228,8 @@
     left: 60%;
   }
   .g-emoji {
-    top: 0;
-    left: 0;
+    top: -3rem;
+    left: -2rem;
     z-index: 1;
     scale: 0.4;
   }

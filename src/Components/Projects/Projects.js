@@ -61,7 +61,7 @@ function Projects() {
       </div>
       <div className="project-slider">
         <Swiper
-          spaceBetween={150}
+          spaceBetween={200}
           slidesPerView={2}
           grabCursor={true}
           className="slider"

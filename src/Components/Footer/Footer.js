@@ -11,10 +11,10 @@ function Footer() {
         <span>kohan.nath@gmail.com</span>
         <div className="f-icons">
           <a href="https://www.linkedin.com/in/kohantika-nath-25b023283/">
-            <LinkedIn color="white" size="3rem"/>
+            <LinkedIn color="white" size="3rem" className="i" />
           </a>
           <a href="https://github.com/kohantikanath">
-            <GitHub color="white" size="3rem"/>
+            <GitHub color="white" size="3rem" className="i" />
           </a>
         </div>
       </div>
