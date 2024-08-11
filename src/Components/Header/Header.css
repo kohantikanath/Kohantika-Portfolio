@@ -73,6 +73,10 @@
     z-index: 1000;
 }
 
+.hamburger {
+    display: none;
+}
+
 .n-left {
     align-items: center;
     display: flex;
@@ -166,8 +170,19 @@
     .n-list {
         display: none;
     }
+    .n-right {
+        justify-content: end;
+        padding: 1rem 0;
+    }
     .n-wrapper {
-        position: relative;
+        display: flex;
+        flex-direction: row;
         padding: 0;
+    }
+    .hamburger {
+        display: block;
+    }
+    .n-name {
+        font-size: 1.8rem;
     }
 }

@@ -54,6 +54,7 @@ import "swiper/css";
 import "swiper/css/autoplay";
 
 function Projects() {
+
   return (
     <div className="projects" id="projects">
       <div className="projects-header">
