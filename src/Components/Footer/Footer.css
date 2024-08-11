@@ -80,8 +80,11 @@
     .f-icons {
         gap: 0.5rem;
     }
+    .fi {
+        height: 2rem;
+    }
     .f-content {
-        gap: 0rem;
+        gap: .5rem;
     }
 }
 
