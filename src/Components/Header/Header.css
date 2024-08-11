@@ -88,9 +88,9 @@
     display: flex;
     flex: 1;
     align-items: center;
-    justify-items: center;
+    justify-items:center; /* Changed from justify-items to justify-content */
     font-weight: 400;
-    margin-left: 900px;
+    margin-left: 900px; /* Changed from fixed margin to auto */
 }
 
 .n-list {
@@ -130,6 +130,10 @@
     .n-name {
         font-size: 2rem;
     }
+    .n-right {
+        margin-left: 0;
+        justify-content: center;
+    }
     .n-list > ul {
         gap: 3rem;
     }
@@ -165,6 +169,10 @@
 @media (max-width: 480px) {
     .n-name {
         font-size: 1.8rem;
+    }
+    .n-right {
+        margin-left: 0;
+        justify-content: center;
     }
     .n-list > ul {
         gap: 0.5rem;
