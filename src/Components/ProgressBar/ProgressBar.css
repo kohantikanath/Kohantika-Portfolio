@@ -1,4 +1,4 @@
-.cont {
+/* .cont {
     width: 200px;
     height: 300px;
     border-radius: 50%;
@@ -35,4 +35,99 @@
 .cont p {
     margin-top: 50px;
     font-size: 2rem;
+} */
+ .cont {
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.progress {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    background: conic-gradient(#ba2ffb 3.6deg, rgb(240, 240, 240) 0deg);
+}
+
+.txt {
+    width: 170px;
+    height: 170px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.cont p {
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+@media (max-width: 1200px) {
+    .cont {
+        width: 180px;
+        height: 270px;
+    }
+    .progress {
+        width: 180px;
+        height: 180px;
+    }
+    .txt {
+        width: 150px;
+        height: 150px;
+        font-size: 1.8rem;
+    }
+    .cont p {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .cont {
+        width: 150px;
+        height: 225px;
+    }
+    .progress {
+        width: 150px;
+        height: 150px;
+    }
+    .txt {
+        width: 130px;
+        height: 130px;
+        font-size: 1.5rem;
+    }
+    .cont p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .cont {
+        width: 120px;
+        height: 180px;
+    }
+    .progress {
+        width: 120px;
+        height: 120px;
+    }
+    .txt {
+        width: 100px;
+        height: 100px;
+        font-size: 1.2rem;
+    }
+    .cont p {
+        font-size: 1.2rem;
+    }
 }

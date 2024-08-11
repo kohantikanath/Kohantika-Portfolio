@@ -1,30 +1,11 @@
-/* h1 {
-    font-size: 3rem;
-    padding: 20px 0px 50px 0px;
-}
-
-.skills {
-    min-height: 100vh;
-    margin: 0px 150px;
-}
-
-.progress-cont {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    row-gap: 70px;
-    column-gap: 200px;
-} */
 h1 {
     font-size: 3rem;
-    padding: 1.25rem 0 3.125rem 0; /* 20px to 1.25rem, 50px to 3.125rem */
+    padding: 1.25rem 0 3.125rem 0; 
 }
 
 .skills {
     min-height: 100vh;
-    padding-top: 4rem; /* 150px to 9.375rem */
+    padding-top: 4rem;
 }
 
 .progress-cont {
@@ -33,6 +14,47 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    row-gap: 4.375rem; /* 70px to 4.375rem */
-    column-gap: 12.5rem; /* 200px to 12.5rem */
+    row-gap: 4.375rem; 
+    column-gap: 12.5rem;
+}
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 2.5rem;
+        padding: 1rem 0 2.5rem 0;
+    }
+    .skills {
+        padding-top: 3rem;
+    }
+    .progress-cont {
+        row-gap: 3.75rem;
+        column-gap: 10rem; 
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        padding: 0.75rem 0 2rem 0;
+    }
+    .skills {
+        padding-top: 2.5rem;
+    }
+    .progress-cont {
+        row-gap: 3.125rem; 
+        column-gap: 7.5rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+        padding: 0.5rem 0 1.5rem 0;
+    }
+    .skills {
+        padding-top: 2rem;
+    }
+    .progress-cont {
+        row-gap: 2.5rem; 
+        column-gap: 5rem; 
+    }
 }

@@ -12,8 +12,8 @@
 }
 
 .icon-box {
-    background-color: #6a0dad; /* Purple hue from the background */
-    color: white; /* White text for better contrast */
+    background-color: #6a0dad; 
+    color: white; 
     padding: 0.5rem;
     border-radius: 0.5rem;
     display: flex;
@@ -34,7 +34,7 @@
 .projects-header h2 {
     font-size: 1rem;
     margin: 0;
-    color: #ff69b4; /* Pink hue from the background */
+    color: #ff69b4; 
 }
 
 .projects-header h1 {
@@ -44,11 +44,11 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    color: black; /* Purple hue from the background */
+    color: black; 
 }
 
 .project-slider {
-    margin-top: 10rem; /* Add space for the centered heading */
+    margin-top: 10rem;
 }
 
 .slider {
@@ -57,11 +57,11 @@
 }
 
 .project-card {
-    background-color: #2a2a2a; /* Pink hue from the background */
+    background-color: #2a2a2a; 
     border-radius: 2rem;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    height: 450px; /* Adjust the height as needed */
+    height: 450px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -76,12 +76,80 @@
 .project-card h3 {
     padding: 1rem 1rem 3rem;
     margin: 0;
-    color: whitesmoke; /* Purple hue from the background */
+    color: whitesmoke; 
 }
 
 .project-card p {
     padding: 0 1rem 3rem;
     margin: 0;
     font-size: 0.9rem;
-    color: #ffffff; /* White text for better contrast */
+    color: #ffffff; 
+}
+
+@media (max-width: 1200px) {
+    .projects-header h1 {
+        font-size: 2.5rem;
+    }
+    .project-card {
+        height: 400px;
+    }
+    .project-card img {
+        height: 200px;
+    }
+    .project-card h3 {
+        padding: 0.75rem 0.75rem 2.5rem;
+    }
+    .project-card p {
+        padding: 0 0.75rem 2.5rem;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-header {
+        align-items: center;
+    }
+    .projects-header h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .projects-header h2 {
+        text-align: center;
+    }
+    .project-slider {
+        margin-top: 5rem;
+    }
+    .project-card {
+        height: 350px;
+    }
+    .project-card img {
+        height: 150px;
+    }
+    .project-card h3 {
+        padding: 0.5rem 0.5rem 2rem;
+    }
+    .project-card p {
+        padding: 0 0.5rem 2rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-header h1 {
+        font-size: 1.5rem;
+    }
+    .project-card {
+        height: 300px;
+    }
+    .project-card img {
+        height: 100px;
+    }
+    .project-card h3 {
+        padding: 0.5rem 0.5rem 1.5rem;
+        font-size: 1rem;
+    }
+    .project-card p {
+        padding: 0 0.5rem 1.5rem;
+        font-size: 0.75rem;
+    }
 }

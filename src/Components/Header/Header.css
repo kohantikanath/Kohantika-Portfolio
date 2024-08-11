@@ -126,7 +126,6 @@
     font-size: 1.3rem;
 }
 
-/* Responsive styles */
 @media (max-width: 1200px) {
     .n-name {
         font-size: 2rem;

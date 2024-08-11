@@ -8,7 +8,7 @@
 }
 
 .about h1 {
-    margin: 3.125rem; /* 50px to 3.125rem */
+    margin: 3.125rem; 
 }
 
 .abt-cont {
@@ -29,21 +29,21 @@
 
 .clouds {
     position: relative;
-    top: -5rem; /* -80px to -5rem */
-    left: 6.25rem; /* 100px to 6.25rem */
+    top: -5rem; 
+    left: 6.25rem; 
     animation: float 2s infinite alternate-reverse;
 }
 
 @keyframes float {
     0% {
-        transform: translateY(-3.75rem); /* -60px to -3.75rem */
+        transform: translateY(-3.75rem); 
     }
     100% {
         transform: translateY(0rem);
     }
 }
 
-/* Responsive styles */
+
 @media (max-width: 1200px) {
     .abt-cont {
         width: 80%;
