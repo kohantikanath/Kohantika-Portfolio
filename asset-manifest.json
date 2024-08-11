@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Kohantika-Portfolio/static/css/main.9a458caf.css",
+    "main.js": "/Kohantika-Portfolio/static/js/main.22ce1c71.js",
+    "static/js/453.d73b0aaa.chunk.js": "/Kohantika-Portfolio/static/js/453.d73b0aaa.chunk.js",
+    "static/media/project8.png": "/Kohantika-Portfolio/static/media/project8.552a537afc9350d71b49.png",
+    "static/media/me.png": "/Kohantika-Portfolio/static/media/me.654f81e6933f0d92ba8a.png",
+    "static/media/project4.png": "/Kohantika-Portfolio/static/media/project4.dc5b94167f510964a424.png",
+    "static/media/project3.png": "/Kohantika-Portfolio/static/media/project3.dbed343dda93afdec2e9.png",
+    "static/media/project6.png": "/Kohantika-Portfolio/static/media/project6.500d136abae0d0f64132.png",
+    "static/media/project7.jpg": "/Kohantika-Portfolio/static/media/project7.f8a04d08dc57b480c0e9.jpg",
+    "static/media/project1.png": "/Kohantika-Portfolio/static/media/project1.fcac49fc235b42ee282e.png",
+    "static/media/about_me.png": "/Kohantika-Portfolio/static/media/about_me.c3647b834ca92e64c16b.png",
+    "static/media/project5.png": "/Kohantika-Portfolio/static/media/project5.2339ed2ea9a6feb7e797.png",
+    "static/media/glassesimoji.png": "/Kohantika-Portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/wave.png": "/Kohantika-Portfolio/static/media/wave.720bb64f028230061e2c.png",
+    "static/media/Vector2.png": "/Kohantika-Portfolio/static/media/Vector2.8c2b7c89fab97f152525.png",
+    "static/media/thumbup.png": "/Kohantika-Portfolio/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/Kohantika-Portfolio/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/Kohantika-Portfolio/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/crown.png": "/Kohantika-Portfolio/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/glasses.png": "/Kohantika-Portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/Kohantika-Portfolio/index.html",
+    "main.9a458caf.css.map": "/Kohantika-Portfolio/static/css/main.9a458caf.css.map",
+    "main.22ce1c71.js.map": "/Kohantika-Portfolio/static/js/main.22ce1c71.js.map",
+    "453.d73b0aaa.chunk.js.map": "/Kohantika-Portfolio/static/js/453.d73b0aaa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a458caf.css",
+    "static/js/main.22ce1c71.js"
+  ]
+}
