@@ -20,8 +20,8 @@ function Intro() {
           <span>Hey! I Am</span>
           <span>Kohantika Nath</span>
           <span>
-            Software developer with high level of experience in web designing
-            and development, producing the Quality work.
+            I'm a software development enthusiast currently studying web design
+            and development producing the Quality work.
           </span>
           <button className="button">Hire Me</button>
           <div className="icons">
