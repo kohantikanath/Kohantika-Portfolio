@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kohantika-Portfolio/static/css/main.8c44a791.css",
-    "main.js": "/Kohantika-Portfolio/static/js/main.af526b9a.js",
+    "main.css": "/Kohantika-Portfolio/static/css/main.ecd29d46.css",
+    "main.js": "/Kohantika-Portfolio/static/js/main.71847468.js",
     "static/js/453.d73b0aaa.chunk.js": "/Kohantika-Portfolio/static/js/453.d73b0aaa.chunk.js",
     "static/media/project8.png": "/Kohantika-Portfolio/static/media/project8.552a537afc9350d71b49.png",
     "static/media/me.png": "/Kohantika-Portfolio/static/media/me.654f81e6933f0d92ba8a.png",
@@ -21,12 +21,12 @@
     "static/media/crown.png": "/Kohantika-Portfolio/static/media/crown.dbe416beae9b49b842ab.png",
     "static/media/glasses.png": "/Kohantika-Portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/Kohantika-Portfolio/index.html",
-    "main.8c44a791.css.map": "/Kohantika-Portfolio/static/css/main.8c44a791.css.map",
-    "main.af526b9a.js.map": "/Kohantika-Portfolio/static/js/main.af526b9a.js.map",
+    "main.ecd29d46.css.map": "/Kohantika-Portfolio/static/css/main.ecd29d46.css.map",
+    "main.71847468.js.map": "/Kohantika-Portfolio/static/js/main.71847468.js.map",
     "453.d73b0aaa.chunk.js.map": "/Kohantika-Portfolio/static/js/453.d73b0aaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c44a791.css",
-    "static/js/main.af526b9a.js"
+    "static/css/main.ecd29d46.css",
+    "static/js/main.71847468.js"
   ]
 }
