@@ -61,8 +61,8 @@ function Projects() {
       </div>
       <div className="project-slider">
         <Swiper
-          spaceBetween={50}
-          slidesPerView={3}
+          spaceBetween={150}
+          slidesPerView={2}
           grabCursor={true}
           className="slider"
           autoplay={{
@@ -72,12 +72,19 @@ function Projects() {
           loop={true}
           speed={2000}
           modules={[Autoplay]}
+          // breakpoints={{
+          //   480: {
+          //     spaceBetween: 150, // Change this value as needed
+          //     slidesPerView: 2, // Optionally change the number of slides per view for smaller screens
+          //   },
+          // }}
         >
           <SwiperSlide>
             <div className="project-card">
               <a
                 href="https://github.com/kohantikanath/Mario-Game"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img src={Project1} alt="Mario Game" />
                 <h3>Mario Game</h3>
@@ -95,6 +102,7 @@ function Projects() {
               <a
                 href="https://github.com/kohantikanath/rocketium-nodejs-project"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img src={Project7} alt="Node.js E-commerce API" />
                 <h3>Node.js E-commerce API</h3>
@@ -113,6 +121,7 @@ function Projects() {
               <a
                 href="https://github.com/kohantikanath/Kohantika-Portfolio"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img src={Project8} alt="Portfolio" />
                 <h3>Portfolio</h3>
@@ -132,6 +141,7 @@ function Projects() {
               <a
                 href="https://github.com/kohantikanath/Quiz_App"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img src={Project4} alt="Quiz App" />
                 <h3>Quiz App</h3>
@@ -150,6 +160,7 @@ function Projects() {
               <a
                 href="https://github.com/kohantikanath/Vehicle_Service_Management_Backend_Project"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img src={Project5} alt="Vehicle Service Management" />
                 <h3>Vehicle Service Management</h3>
@@ -165,7 +176,11 @@ function Projects() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="project-card">
-              <a href="https://github.com/kohantikanath/ProductService" target="_blank">
+              <a
+                href="https://github.com/kohantikanath/ProductService"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={Project6} alt="Product Management System" />
                 <h3>Product Management System</h3>
                 <p>
@@ -183,8 +198,9 @@ function Projects() {
               <a
                 href="https://github.com/kohantikanath/ImageEditor/tree/main/imageEditor"
                 target="_blank"
+                rel="noopener noreferrer"
               >
-                <img src={Project3} alt="Image Editor" />
+                <img src={Project3} alt="ImageEditor" />
                 <h3>Image Editor</h3>
                 <p>
                   Developed a Java-based image editor application with essential

@@ -41,14 +41,7 @@ function Intro() {
             <img src={thumbup} alt="" />
             <p>Best Design Award</p>
           </div>
-          <motion.img
-            initial={{ left: "-400px" }}
-            whileInView={{ left: "-200px" }}
-            transition={{ transition }}
-            src={glassesimoji}
-            alt=""
-            className="g-emoji"
-          />
+          <img src={glassesimoji} alt="" className="g-emoji" />
           <div className="img-cont">
             <img src={Crown} alt="" />
             <p>Web developer</p>

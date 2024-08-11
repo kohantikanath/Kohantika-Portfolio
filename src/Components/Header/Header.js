@@ -21,9 +21,11 @@ function Navbar() {
             <li>
               <a href="#projects">Projects</a>
             </li>
+            <button className="n-button">
+              <a href="#contact">Contact</a>
+            </button>
           </ul>
         </nav>
-        <button className="n-button"><a href="#contact">Contact</a></button>
       </div>
     </div>
   );

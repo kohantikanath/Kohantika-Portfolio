@@ -64,6 +64,7 @@
  */
 .n-wrapper {
     height: 10vh;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -73,7 +74,6 @@
 }
 
 .n-left {
-    flex: 1;
     align-items: center;
     display: flex;
     gap: 2rem;
@@ -88,13 +88,9 @@
     display: flex;
     flex: 1;
     align-items: center;
-    justify-items:center; /* Changed from justify-items to justify-content */
+    justify-content: end;
     font-weight: 400;
-    margin-left: 900px; /* Changed from fixed margin to auto */
-}
-
-.n-list {
-    flex: 10;
+    margin-right: 20px;
 }
 
 .n-list > ul {
@@ -167,19 +163,11 @@
 }
 
 @media (max-width: 480px) {
-    .n-name {
-        font-size: 1.8rem;
+    .n-list {
+        display: none;
     }
-    .n-right {
-        margin-left: 0;
-        justify-content: center;
-    }
-    .n-list > ul {
-        gap: 0.5rem;
-    }
-    .n-button {
-        width: 140px;
-        height: 25px;
-        font-size: 1rem;
+    .n-wrapper {
+        position: relative;
+        padding: 0;
     }
 }

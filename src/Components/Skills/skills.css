@@ -46,12 +46,11 @@ h1 {
 }
 
 @media (max-width: 480px) {
-    h1 {
-        font-size: 1.5rem;
-        padding: 0.5rem 0 1.5rem 0;
+    #skills > h1 {
+        font-size: 2rem;
     }
-    .skills {
-        padding-top: 2rem;
+    #skills {
+        padding: 0;
     }
     .progress-cont {
         row-gap: 2.5rem; 

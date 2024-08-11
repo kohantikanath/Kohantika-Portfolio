@@ -198,6 +198,12 @@
     padding: 0 0.5rem;
     height: auto;
     padding-top: 2rem;
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .f-right {
+    width: 100%;
   }
   .user, #txtarea {
     width: 100%;
