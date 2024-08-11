@@ -162,4 +162,7 @@
         padding: 0 0.5rem 1.5rem;
         font-size: 0.75rem;
     }
+    .project-card a {
+        text-decoration: none;
+    }
 }
