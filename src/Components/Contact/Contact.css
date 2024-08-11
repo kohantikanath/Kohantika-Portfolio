@@ -1,4 +1,4 @@
-.form {
+/* .form {
   padding: 0 3rem 0 3rem;
   display: flex;
   height: 50vh;
@@ -73,4 +73,146 @@
   font-size: 3rem;
   text-align: left;
   display: block;
+} */
+.form {
+  padding: 0 3rem;
+  display: flex;
+  height: 50vh;
+  padding-top: 6rem;
+  position: relative;
+}
+
+.f-right {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+}
+
+.f-right > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.user {
+  width: 400px;
+  height: 40px;
+  padding: 0.3rem;
+  outline: none;
+  border: 2px solid rgb(159, 14, 159);
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+#txtarea {
+  height: 200px;
+  resize: none;
+  width: 400px;
+}
+
+.blur3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(238 210 255);
+  border-radius: 50%;
+  filter: blur(72px);
+}
+
+.blur4 {
+  position: absolute;
+  top: 10px;
+  left: 900px;
+  z-index: -2;
+  width: 600px;
+  height: 600px;
+  background-color: rgb(255, 232, 210);
+  border-radius: 50%;
+  filter: blur(72px);
+}
+
+.f-text > :nth-child(1) {
+  color: black;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: left;
+}
+
+.f-text > :nth-child(2) {
+  color: rgb(159, 14, 159);
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: left;
+  display: block;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .form {
+    padding: 0 2rem;
+    height: auto;
+    padding-top: 4rem;
+  }
+  .user, #txtarea {
+    width: 350px;
+  }
+  .blur3 {
+    width: 300px;
+    height: 300px;
+  }
+  .blur4 {
+    width: 500px;
+    height: 500px;
+    left: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .form {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    height: auto;
+    padding-top: 3rem;
+  }
+  .user, #txtarea {
+    width: 300px;
+  }
+  .blur3 {
+    width: 250px;
+    height: 250px;
+  }
+  .blur4 {
+    width: 400px;
+    height: 400px;
+    left: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form {
+    padding: 0 0.5rem;
+    height: auto;
+    padding-top: 2rem;
+  }
+  .user, #txtarea {
+    width: 100%;
+  }
+  .blur3 {
+    width: 200px;
+    height: 200px;
+  }
+  .blur4 {
+    width: 300px;
+    height: 300px;
+    left: 300px;
+  }
+  .f-text > :nth-child(1), .f-text > :nth-child(2) {
+    font-size: 2rem;
+  }
 }
