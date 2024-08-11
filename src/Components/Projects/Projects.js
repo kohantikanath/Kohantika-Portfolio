@@ -1,8 +1,49 @@
+// import Project1 from "../../Images/project1.png";
+// import Project2 from "../../Images/project2.png";
+// import Project3 from "../../Images/project3.png";
+// import "./Projects.css";
+
+// function Projects() {
+//   return (
+//     <div className="projects" id="projects">
+//       <div className="projects-header">
+//         <h1>Projects</h1>
+//       </div>
+//       <div className="project-grid">
+//         <div className="project-card">
+//           <img src={Project1} alt="U Tracker" />
+//           <h3>U Tracker</h3>
+//           <p>
+//             An application to track your all data from one place. I developed
+//             the website and the mobile app.
+//           </p>
+//         </div>
+//         <div className="project-card">
+//           <img src={Project2} alt="Green CTG" />
+//           <h3>Green CTG</h3>
+//           <p>
+//             An app to help people to get an overview of how they can make the
+//             city beautiful.
+//           </p>
+//         </div>
+//         <div className="project-card">
+//           <img src={Project3} alt="Coin Tracker" />
+//           <h3>Coin Tracker</h3>
+//           <p>
+//             Using this app you can track any e coin. Also you will get a good
+//             advise about investment from the professional.
+//           </p>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Projects;
+
 import Project1 from "../../Images/project1.png";
 import Project2 from "../../Images/project2.png";
 import Project3 from "../../Images/project3.png";
-import Project4 from "../../Images/project4.png";
-import Project5 from "../../Images/project5.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "./Projects.css";
@@ -12,9 +53,9 @@ import "swiper/css/autoplay";
 function Projects() {
   return (
     <div className="projects" id="projects">
-      <p>
-        Projects
-      </p>
+      <div className="projects-header">
+        <h1>Projects</h1>
+      </div>
       <div className="project-slider">
         <Swiper
           spaceBetween={50}
@@ -30,29 +71,44 @@ function Projects() {
           modules={[Autoplay]}
         >
           <SwiperSlide>
-            <a href="https://github.com/kohantikanath/Mario-Game">
-              <img src={Project1} alt="Mario Game Project" />
-            </a>
+            <div className="project-card">
+              <img src={Project1} alt="U Tracker" />
+              <h3>U Tracker</h3>
+              <p>
+                An application to track your all data from one place. I
+                developed the website and the mobile app.
+              </p>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="https://github.com/kohantikanath/WebScrapper">
-              <img src={Project2} alt="Web scrapper Project" />
-            </a>
+            <div className="project-card">
+              <img src={Project2} alt="Green CTG" />
+              <h3>Green CTG</h3>
+              <p>
+                An app to help people to get an overview of how they can make
+                the city beautiful.
+              </p>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="https://github.com/kohantikanath/ImageEditor/tree/main/imageEditor">
-              <img src={Project3} alt="Image Editor Project" />
-            </a>
+            <div className="project-card">
+              <img src={Project3} alt="Coin Tracker" />
+              <h3>Coin Tracker</h3>
+              <p>
+                Using this app you can track any e coin. Also you will get a
+                good advise about investment from the professional.
+              </p>
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="https://github.com/kohantikanath/Quiz_App">
-              <img src={Project4} alt="Quizz App Project" />
-            </a>
-          </SwiperSlide>
-          <SwiperSlide>
-            <a href="">
-              <img src={Project5} alt="Vehical management system Project" />
-            </a>
+            <div className="project-card">
+              <img src={Project3} alt="Coin Tracker" />
+              <h3>Coin Tracker</h3>
+              <p>
+                Using this app you can track any e coin. Also you will get a
+                good advise about investment from the professional.
+              </p>
+            </div>
           </SwiperSlide>
         </Swiper>
       </div>
