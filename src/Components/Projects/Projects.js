@@ -41,11 +41,11 @@
 
 // export default Projects;
 import Project1 from "../../Images/project1.png";
-import Project3 from "../../Images/project3.png";
+import Project3 from "../../Images/project3.jpg";
 import Project4 from "../../Images/project4.png";
-import Project5 from "../../Images/project5.png";
+import Project5 from "../../Images/project5.jpg";
 import Project6 from "../../Images/project6.png";
-import Project7 from "../../Images/project7.jpg";
+import Project7 from "../../Images/project7.png";
 import Project8 from "../../Images/project8.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
@@ -101,18 +101,19 @@ function Projects() {
           <SwiperSlide>
             <div className="project-card">
               <a
-                href="https://github.com/kohantikanath/rocketium-nodejs-project"
+                href="https://food-product-explorer-beta.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={Project7} alt="Node.js E-commerce API" />
-                <h3>Node.js E-commerce API</h3>
+                <img src={Project7} alt="Food Product Explorer" />
+                <h3>Food Product Explorer</h3>
                 <p>
-                  Developed a Node.js API with Express, featuring data serving,
-                  filtering, and sorting capabilities to demonstrate backend
-                  functionality and API design principles. Implemented automated
-                  data fetching scripts and environment variable configuration
-                  for enhanced operational efficiency.
+                  My Food Product Explorer is a web app that helps users
+                  discover and compare food products based on ingredients,
+                  nutrition, pricing, and reviews. With intuitive search and
+                  filters, it offers a seamless and informed browsing experience
+                  for health-conscious eaters, budget shoppers, and food
+                  enthusiasts.
                 </p>
               </a>
             </div>
@@ -140,18 +141,18 @@ function Projects() {
           <SwiperSlide>
             <div className="project-card">
               <a
-                href="https://github.com/kohantikanath/Quiz_App"
+                href="https://quiz-arcade-app.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={Project4} alt="Quiz App" />
-                <h3>Quiz App</h3>
+                <img src={Project4} alt="Quiz Arcade App" />
+                <h3>Quiz Arcade App</h3>
                 <p>
-                  Developed a dynamic web quiz with randomized questions and
-                  timed challenges for engaging user experiences. Implemented
-                  progress tracking, instant scoring, and an interactive
-                  frontend with JavaScript, HTML, and CSS for seamless
-                  usability.
+                  My Quiz Arcade app is a fun and interactive platform offering
+                  a variety of quizzes across different categories. With
+                  engaging questions, real-time scoring, and a user-friendly
+                  interface, it provides an exciting way to test knowledge and
+                  challenge friends. Perfect for learning and entertainment!
                 </p>
               </a>
             </div>
@@ -159,18 +160,19 @@ function Projects() {
           <SwiperSlide>
             <div className="project-card">
               <a
-                href="https://github.com/kohantikanath/Vehicle_Service_Management_Backend_Project"
+                href="https://github.com/kohantikanath/MERN_AI-CHATBOT"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={Project5} alt="Vehicle Service Management" />
-                <h3>Vehicle Service Management</h3>
+                <img src={Project5} alt="MERN-AI-CHATBOT" />
+                <h3>MERN-AI-CHATBOT</h3>
                 <p>
-                  Developed a backend system using MySQL and SpringBoot,
-                  incorporating intelligent database management features for
-                  efficient handling of vehicle service records and customer
-                  data. Implemented CRUD operations for comprehensive patient
-                  detail handling
+                  My MERN-AI-Chatbot is an advanced AI-powered chatbot built
+                  with the MERN stack, designed for seamless and secure
+                  conversations. It supports message storage, retrieval, and
+                  deletion, with robust security features like JWT
+                  authentication, HTTP-only cookies, password encryption, and
+                  middleware chains. Ideal for smart and secure AI interactions!
                 </p>
               </a>
             </div>
@@ -178,18 +180,20 @@ function Projects() {
           <SwiperSlide>
             <div className="project-card">
               <a
-                href="https://github.com/kohantikanath/ProductService"
+                href="https://github.com/kohantikanath/MyntraHackathon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={Project6} alt="Product Management System" />
-                <h3>Product Management System</h3>
+                <img src={Project6} alt="HackerRamp-2024(SwipeSavy)" />
+                <h3>HackerRamp-2024(SwipeSavy)</h3>
                 <p>
-                  Engineered a robust backend system integrating with the Fake
-                  Store API for efficient product data management. Designed
-                  RESTful APIs using Spring Boot and Spring MVC to enhance
-                  inventory management and service efficiency with comprehensive
-                  CRUD functionalities.
+                  My HackerRamp Myntra Project is a React Native app designed
+                  for an interactive and engaging fashion experience. It
+                  features smooth navigation, swipeable fashion recommendations,
+                  and a dynamic UI with components like ThemeCard and
+                  SwipeableCard. Built for seamless user interaction, it
+                  enhances fashion discovery with an intuitive and visually
+                  appealing interface.
                 </p>
               </a>
             </div>
@@ -197,17 +201,19 @@ function Projects() {
           <SwiperSlide>
             <div className="project-card">
               <a
-                href="https://github.com/kohantikanath/ImageEditor/tree/main/imageEditor"
+                href="https://github.com/kohantikanath/TodoListApp"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={Project3} alt="ImageEditor" />
-                <h3>Image Editor</h3>
+                <img src={Project3} alt="TodoList APP" />
+                <h3>TodoList APP</h3>
                 <p>
-                  Developed a Java-based image editor application with essential
-                  editing functionalities for users. Implemented features such
-                  as image cropping, grayscale conversion, and rotation to
-                  enhance editing capabilities.
+                  My React Native To-Do List App is a simple yet efficient task
+                  management tool designed for seamless productivity. It allows
+                  users to add, edit, and delete tasks with a clean and
+                  intuitive UI. With real-time updates and smooth navigation, it
+                  helps users stay organized and manage their daily tasks
+                  effortlessly.
                 </p>
               </a>
             </div>
