@@ -78,5 +78,5 @@ http://localhost:3000
 ## Deployment
 ##### You can view the live version of this project at the following link:
 
-- **Deployed Version:** https://kohantikanath.github.io/Kohantika-Portfolio/
+- **Deployed Version:** https://kohantika-portfolio.vercel.app/
 
